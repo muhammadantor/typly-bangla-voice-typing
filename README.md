@@ -8,7 +8,10 @@ AutomateIQ Labs, voice typing app Bangladesh, speech recognition desktop applica
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Typly&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI-Powered%20Bangla%20%26%20English%20Voice%20Typing%20for%20Windows&descAlignY=57&descAlign=50"/>
+<img src="typly-icon.png" width="120" alt="Typly Icon">
+
+<h1>Typly</h1>
+<p><b>AI-Powered Bangla & English Voice Typing for Windows</b></p>
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Languages](https://img.shields.io/badge/Languages-Bangla%20%2B%20English-2E8B57?style=for-the-badge)
