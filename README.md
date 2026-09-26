@@ -167,11 +167,11 @@ Speech is messy — pauses, background noise, half-finished sentences. Typly tre
 
 | Doc | Covers |
 |---|---|
-| `docs/ENGINEERING.md` | Full engine pipeline — audio capture, chunking, transcription, AI enhancement |
-| `docs/SECURITY.md` | License & security architecture |
-| `docs/INSTALLATION.md` | Step-by-step install & setup guide |
-| `docs/COMPARISON.md` | Typly vs. traditional voice-typing tools, in more depth |
-| `docs/FAQ.md` | Troubleshooting & common questions |
+| [docs/ENGINEERING.md](docs/ENGINEERING.md) | Full engine pipeline — audio capture, chunking, transcription, AI enhancement |
+| [docs/SECURITY.md](docs/SECURITY.md) | License & security architecture |
+| [docs/INSTALLATION.md](docs/INSTALLATION.md) | Step-by-step install & setup guide |
+| [docs/COMPARISON.md](docs/COMPARISON.md) | Typly vs. traditional voice-typing tools, in more depth |
+| [docs/FAQ.md](docs/FAQ.md) | Troubleshooting & common questions |
 
 ## FAQ
 
