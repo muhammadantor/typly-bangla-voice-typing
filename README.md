@@ -2,6 +2,10 @@
   <img src="typly-icon.png" width="120" alt="Typly Icon">
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=2E8B57&center=true&vCenter=true&width=600&lines=Speak.+It+Types.+Instantly.;AI-Powered+Voice+Typing+for+Windows;Bangla+%2B+English+%2B+Mixed+Mode;Built+by+AutomateIQ+Labs" alt="Typing SVG">
+</p>
+
 <h1 align="center">Typly — AI-Powered Bangla & English Voice Typing for Windows</h1>
 
 **A background voice-typing assistant for Windows — hold a hotkey, speak in Bangla or English, and your words appear instantly wherever your cursor is. Built by AutomateIQ Labs.**
@@ -34,6 +38,7 @@
 - [Documentation](#documentation)
 - [FAQ](#faq)
 - [License & Usage](#license--usage)
+- [About the Developer](#about-the-developer)
 - [Connect](#connect)
 
 ---
@@ -147,9 +152,13 @@ Typly is proprietary, closed-source software. This repository exists to demonstr
 
 If you're interested in a similar system built for your business, reach out below.
 
-## Connect
+## About the Developer
 
-**Muhammad Antor** — AI Automation Engineer & Founder, AutomateIQ Labs 🇧🇩
+**Muhammad Antor** is an AI Automation Engineer and the founder of **AutomateIQ Labs** 🇧🇩, building AI-powered automation systems and production software — from n8n-based business automation to standalone AI applications like Typly. Typly was built end-to-end: audio engineering, AI integration, licensing architecture, and Windows packaging.
+
+Explore more projects: [github.com/muhammadantor](https://github.com/muhammadantor)
+
+## Connect
 
 - Facebook: [facebook.com/automateiq.labs](https://facebook.com/automateiq.labs)
 - WhatsApp: +880 1959-884930
