@@ -1,35 +1,46 @@
-<p align="center">
-  <img src="typly-icon.png" width="120" alt="Typly Icon">
-</p>
+<!--
+SEO keyword block (not rendered visually, indexed by search & LLM crawlers):
+AI voice typing software Windows, Bangla speech to text app, English voice dictation tool, hands-free typing software,
+voice to text software Windows, AI transcription app Bangladesh, Windows dictation assistant, Bangla voice recognition AI,
+offline voice typing tool, hotkey voice typing Windows, AI-enhanced dictation software, hardware-locked license system,
+AutomateIQ Labs, voice typing app Bangladesh, speech recognition desktop application, Bangla English mixed language typing.
+-->
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=2E8B57&center=true&vCenter=true&width=600&lines=Speak.+It+Types.+Instantly.;AI-Powered+Voice+Typing+for+Windows;Bangla+%2B+English+%2B+Mixed+Mode;Built+by+AutomateIQ+Labs" alt="Typing SVG">
-</p>
+<div align="center">
 
-<h1 align="center">Typly — AI-Powered Bangla & English Voice Typing for Windows</h1>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Typly&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI-Powered%20Bangla%20%26%20English%20Voice%20Typing%20for%20Windows&descAlignY=57&descAlign=50"/>
+
+![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Languages](https://img.shields.io/badge/Languages-Bangla%20%2B%20English-2E8B57?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![Maintained by](https://img.shields.io/badge/Maintained%20by-AutomateIQ%20Labs-black?style=for-the-badge)
+
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1000&color=2E8B57&center=true&vCenter=true&random=false&width=750&lines=Speak.+It+Types.+Instantly.+%F0%9F%8E%99%EF%B8%8F;Bangla+%2B+English+%2B+Mixed+Mode+%E2%8C%A8%EF%B8%8F;AI-Enhanced+Transcription+%E2%9C%A8;Hardware-Locked+Licensing+%F0%9F%94%92)](https://git.io/typing-svg)
+
+<br/>
 
 **A background voice-typing assistant for Windows — hold a hotkey, speak in Bangla or English, and your words appear instantly wherever your cursor is. Built by AutomateIQ Labs.**
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white">
-  <img src="https://img.shields.io/badge/Languages-Bangla%20%2B%20English-2E8B57?style=for-the-badge">
-  <img src="https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Maintained%20by-AutomateIQ%20Labs-black?style=for-the-badge">
-</p>
+<br/>
 
 > 📌 **This repository is for distribution and documentation only.** It showcases the product, its engineering, and its security model. No source code is published here — see [License & Usage](#license--usage) below.
+
+</div>
 
 **Core keywords:** AI voice typing Windows, Bangla speech-to-text, English voice dictation, hands-free typing tool, voice-to-text software, AI transcription app, Windows dictation assistant, Bangla voice recognition, speech AI Bangladesh, offline voice typing tool.
 
 ---
 
-## Table of Contents
+## 📌 Table of Contents
 
 - [Overview](#overview)
 - [The Problem It Solves](#the-problem-it-solves)
 - [Screenshots](#screenshots)
 - [What Makes Typly Different](#what-makes-typly-different)
+- [Typly vs. Typical Voice-Typing Tools](#️-typly-vs-typical-voice-typing-tools)
 - [Tech Highlights](#tech-highlights)
 - [Pricing](#pricing)
 - [Download](#download)
@@ -38,7 +49,6 @@
 - [Documentation](#documentation)
 - [FAQ](#faq)
 - [License & Usage](#license--usage)
-- [About the Developer](#about-the-developer)
 - [Connect](#connect)
 
 ---
@@ -76,6 +86,17 @@ Typly was engineered specifically around these gaps — system-wide hotkey activ
 - ⚡ **Automatic GPU detection** — uses NVIDIA GPU acceleration when available, falls back cleanly to CPU
 - 🔒 **Hardware-locked licensing** — tied to the machine, engineered to resist casual tampering
 - 📊 **Live usage visibility** — daily and weekly word usage tracked inside the app, not hidden
+
+## ⚖️ Typly vs. Typical Voice-Typing Tools
+
+| | Typical Voice-Typing Tool | Typly |
+|---|---|---|
+| **Language support** | Usually English-first, weak or no Bangla | True Bangla + English + Mixed mode |
+| **Activation** | App-specific window or manual button | System-wide hotkey, works inside any app |
+| **Output quality** | Raw transcription only | Optional AI-enhanced grammar & tone polish |
+| **Hardware use** | Often CPU-only or cloud-dependent | Automatic NVIDIA GPU detection, clean CPU fallback |
+| **Licensing** | Simple key check, easy to bypass | Multi-layer, hardware-bound validation |
+| **Offline capability** | Often requires constant internet | Fully offline after the one-time model download |
 
 ## Tech Highlights
 
@@ -131,7 +152,7 @@ Typly was engineered specifically around these gaps — system-wide hotkey activ
 | `docs/ENGINEERING.md` | Full engine pipeline — audio capture, chunking, transcription, AI enhancement |
 | `docs/SECURITY.md` | License & security architecture |
 | `docs/INSTALLATION.md` | Step-by-step install & setup guide |
-| `docs/COMPARISON.md` | Typly vs. traditional voice-typing tools |
+| `docs/COMPARISON.md` | Typly vs. traditional voice-typing tools, in more depth |
 | `docs/FAQ.md` | Troubleshooting & common questions |
 
 ## FAQ
@@ -152,19 +173,26 @@ Typly is proprietary, closed-source software. This repository exists to demonstr
 
 If you're interested in a similar system built for your business, reach out below.
 
-## About the Developer
-
-**Muhammad Antor** is an AI Automation Engineer and the founder of **AutomateIQ Labs** 🇧🇩, building AI-powered automation systems and production software — from n8n-based business automation to standalone AI applications like Typly. Typly was built end-to-end: audio engineering, AI integration, licensing architecture, and Windows packaging.
-
-Explore more projects: [github.com/muhammadantor](https://github.com/muhammadantor)
-
 ## Connect
 
-- Facebook: [facebook.com/automateiq.labs](https://facebook.com/automateiq.labs)
-- WhatsApp: +880 1959-884930
-- Email: muhammadantor71@gmail.com
-- Instagram: [instagram.com/automateiq.labs](https://instagram.com/automateiq.labs)
+<div align="center">
+
+**Muhammad Antor** — AI Automation Engineer & Founder, AutomateIQ Labs 🇧🇩
+
+[![Facebook](https://img.shields.io/badge/AutomateIQ_Labs-Follow-1877F2?style=for-the-badge&logo=facebook)](https://www.facebook.com/automateiq.labs/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Message-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801959884930)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/muhammadantor)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:muhammadantor71@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/automateiq.labs/)
+
+</div>
 
 ---
 
-<p align="center"><sub>Distribution repository by <b>AutomateIQ Labs</b> — the underlying implementation is proprietary and not licensed for reuse.</sub></p>
+<div align="center">
+
+*Distribution repository by AutomateIQ Labs — the underlying implementation is proprietary and not licensed for reuse.*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+
+</div>
