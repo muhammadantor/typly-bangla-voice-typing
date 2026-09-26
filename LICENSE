@@ -1,0 +1,91 @@
+Typly — Proprietary Software License
+All Rights Reserved
+
+Copyright (c) 2026 Muhammad Antor / AutomateIQ Labs. All Rights Reserved.
+
+This repository, including all documentation, images, diagrams, descriptions,
+architecture explanations, and any other content contained within it
+(collectively, the "Materials"), is the exclusive property of Muhammad Antor,
+operating as AutomateIQ Labs ("the Owner").
+
+The software product described in this repository ("Typly") is proprietary,
+closed-source software. No source code for Typly is published in this
+repository. This repository exists solely to document, demonstrate, and
+distribute the compiled application, and to describe its features,
+architecture, and security model for informational and portfolio purposes.
+
+1. GRANT OF LICENSE (END USERS)
+
+   Subject to payment of the applicable license fee and acceptance of these
+   terms, the Owner grants the purchaser a limited, non-exclusive,
+   non-transferable, revocable license to install and use one (1) copy of
+   the compiled Typly application on a single licensed machine, for the
+   duration of the purchased plan, for personal or internal business use
+   only.
+
+   This license does NOT grant any right to:
+   - Access, view, copy, modify, or reverse engineer the underlying
+     source code, algorithms, or implementation of Typly;
+   - Redistribute, resell, sublicense, rent, or lease the software to any
+     third party;
+   - Circumvent, disable, tamper with, or attempt to bypass the license
+     validation or security system by any means;
+   - Use the software beyond the licensed machine or the duration of the
+     purchased plan without a valid, renewed license.
+
+2. NO PERMISSION TO REPRODUCE OR REBUILD
+
+   No part of the Materials in this repository — including but not limited
+   to written descriptions of the engine architecture, security
+   architecture, engineering decisions, or design principles — may be
+   used, copied, or adapted to construct, build, or distribute the same or
+   a substantially similar system, product, or service, in whole or in
+   part, without the prior written consent of the Owner.
+
+3. INTELLECTUAL PROPERTY
+
+   "Typly," associated logos, icons, and branding are the property of the
+   Owner. All rights not expressly granted in Section 1 are reserved by
+   the Owner.
+
+4. DISCLAIMER OF WARRANTY
+
+   THE SOFTWARE AND MATERIALS ARE PROVIDED "AS IS," WITHOUT WARRANTY OF
+   ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES
+   OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR
+   NON-INFRINGEMENT. THE OWNER DOES NOT WARRANT THAT THE SOFTWARE WILL BE
+   ERROR-FREE OR UNINTERRUPTED.
+
+5. LIMITATION OF LIABILITY
+
+   IN NO EVENT SHALL THE OWNER BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+   SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATED
+   TO THE USE OF, OR INABILITY TO USE, THE SOFTWARE, EVEN IF ADVISED OF
+   THE POSSIBILITY OF SUCH DAMAGES.
+
+6. TERMINATION
+
+   This license is automatically terminated if the licensee violates any
+   term of this agreement, including but not limited to unauthorized
+   copying, redistribution, reverse engineering, or license
+   circumvention. Upon termination, the licensee must cease all use of
+   the software and destroy all copies in their possession.
+
+7. GOVERNING LAW
+
+   This license shall be governed by and construed in accordance with the
+   laws applicable in Bangladesh, without regard to its conflict of law
+   principles.
+
+8. CONTACT
+
+   For licensing inquiries, permissions, or reporting unauthorized use,
+   contact:
+
+   Muhammad Antor / AutomateIQ Labs
+   Email: muhammadantor71@gmail.com
+   Facebook: https://www.facebook.com/automateiq.labs/
+
+---
+
+All rights not expressly granted herein are reserved by the Owner.
