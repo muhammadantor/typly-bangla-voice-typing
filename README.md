@@ -39,15 +39,18 @@ AutomateIQ Labs, voice typing app Bangladesh, speech recognition desktop applica
 - [Overview](#overview)
 - [The Problem It Solves](#the-problem-it-solves)
 - [Screenshots](#screenshots)
+- [Design Principles](#design-principles)
 - [What Makes Typly Different](#what-makes-typly-different)
 - [Typly vs. Typical Voice-Typing Tools](#️-typly-vs-typical-voice-typing-tools)
 - [Tech Highlights](#tech-highlights)
+- [Reliability Philosophy](#reliability-philosophy)
 - [Pricing](#pricing)
 - [Download](#download)
 - [System Requirements](#system-requirements)
 - [Good to Know (Not Bugs)](#good-to-know-not-bugs)
 - [Documentation](#documentation)
 - [FAQ](#faq)
+- [About The Builder](#-about-the-builder)
 - [License & Usage](#license--usage)
 - [Connect](#connect)
 
@@ -77,6 +80,14 @@ Typly was engineered specifically around these gaps — system-wide hotkey activ
 | Payment | Help | System Tray |
 |---|---|---|
 | ![Payment Popup](payment-popup.png) | ![Help Screen](help-screen.png) | ![System Tray](system-tray.png) |
+
+## Design Principles
+
+- **Never guess silently.** If the engine isn't confident in what it heard, it should never quietly produce garbled or hallucinated text — output correctness is treated as more important than always returning something.
+- **Tune, don't assume.** Every timing and chunking parameter was arrived at through iterative testing against real speech patterns, not left at library defaults.
+- **Degrade gracefully.** AI enhancement is optional — if no LLM is configured or a provider fails, Typly still returns clean raw transcription rather than failing the whole action.
+- **Protect the business model, not just the code.** Licensing is treated as a first-class engineering concern, not an afterthought bolted on at the end.
+- **The user should never wonder if it's broken.** Expected behaviors that look like bugs (permission prompts, GPU-only acceleration) are documented plainly instead of left to guesswork.
 
 ## What Makes Typly Different
 
@@ -109,6 +120,10 @@ Typly was engineered specifically around these gaps — system-wide hotkey activ
 | Licensing | Multi-layer hardware-bound validation system |
 
 *(Full engineering breakdown in [docs/ENGINEERING.md](docs/ENGINEERING.md) — implementation-level detail intentionally withheld; see [License & Usage](#license--usage).)*
+
+## Reliability Philosophy
+
+Speech is messy — pauses, background noise, half-finished sentences. Typly treats a wrong or hallucinated transcription as a worse outcome than a slightly delayed one, so its decoding pipeline includes dedicated safeguards against cut-off and fabricated text rather than optimizing purely for speed. The same philosophy carries into AI enhancement: if the enhancement step fails or times out, the user still gets their raw, accurate transcription — a broken AI call never means a broken result.
 
 ## Pricing
 
@@ -164,6 +179,23 @@ Typly was engineered specifically around these gaps — system-wide hotkey activ
 **Does it work without an internet connection?** Yes, after the first launch (which downloads the language model, ~250MB). Day-to-day use is fully offline.
 
 **Do I need a powerful GPU?** No — a GPU speeds things up if it's NVIDIA, but Typly runs entirely on CPU as well.
+
+## 👤 About The Builder
+
+<div align="center">
+
+<img src="developer-photo.png" width="140" style="border-radius:50%;" alt="Muhammad Antor">
+
+**Muhammad Antor**
+AI Automation Engineer | AutomateIQ Labs 🇧🇩
+
+*"I don't just write code — I build systems that work while you sleep."*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/muhammad-antor)
+[![Facebook](https://img.shields.io/badge/AutomateIQ_Labs-Follow-1877F2?style=for-the-badge&logo=facebook)](https://www.facebook.com/automateiq.labs/)
+[![Email](https://img.shields.io/badge/Email-Hire_Me-EA4335?style=for-the-badge&logo=gmail)](mailto:muhammadantor71@gmail.com)
+
+</div>
 
 ## License & Usage
 
